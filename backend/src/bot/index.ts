@@ -5,10 +5,10 @@ import { rulesHandler } from "./handlers/rules.handler.js";
 import { startHandler } from "./handlers/start.handler.js";
 
 export const initBot = () => {
-  // Register Handlers
-  startHandler();
-  sendMessage()
-  rulesHandler()
-  assignGroup()
-  keyVerify()
+    // Register Handlers
+    startHandler();
+    sendMessage();
+    rulesHandler();
+    assignGroup();
+    keyVerify();
 };
