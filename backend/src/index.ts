@@ -26,7 +26,7 @@ app.use(sessionValidator);
 app.onError(errorHandler);
 
 // Database
-db();
+await db();
 
 // Auth Route
 app.on(["POST", "GET"], "/api/auth/**", (c) => {
